@@ -1,33 +1,40 @@
-TC=int(input())
+import sys
+sys.stdin = open('1974.txt', 'r')
 
-for testcase in range(1, TC+1):
-    total_map=list()
-    result=1
-    for l in range(9):
-        list_a=list(map(int, input().split()))
-        total_map.append(list_a)
-    
+def ch_gs():
+    global result
     for y in range(9):
-        result_x=0
-        result_y=0
+        a_que = []
+        b_que = []
         for x in range(9):
-            result_x+=total_map[y][x]
-            result_y+=total_map[x][y]
-        if result_y!=45 or result_x!=45:
-            result=0
-            break
-        
+            if total_map[y][x] not in a_que:
+                a_que.append(total_map[y][x])
+            else:
+                result = 0
+                return
+            if total_map[x][y] not in b_que:
+                b_que.append(total_map[x][y])
+            else:
+                result = 0
+                return
+
     for y in range(0, 9, 3):
         for x in range(0, 9, 3):
-            result_box=0
-            for j in range(3):
-                for i in range(3):
-                    result_box+=total_map[y+j][x+i]
+            c_que = []
+            for i in range(3):
+                for j in range(3):
+                    if total_map[y+i][x+j] not in c_que:
+                        c_que.append(total_map[y+i][x+j])
+                    else:
+                        result = 0
+                        return
 
-            if result_box!=45:
-                result=0
-                break
+TC = int(input())
+for testcase in range(1, TC+1):
+    total_map = []
+    for _ in range(9):
+        new_lst = list(map(int, input().split()))
+        total_map.append(new_lst)
+    result = 1
+    ch_gs()
     print('#{} {}'.format(testcase, result))
-
-
-            

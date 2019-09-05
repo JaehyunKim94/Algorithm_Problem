@@ -1,30 +1,23 @@
-def my_pascal(pascal_list):
-    new_pascal=list()
-    new_list=list()
+import sys
+sys.stdin = open('2005.txt', 'r')
 
-    if len(pascal_list)==0:
-        pascal_list.append(int(1))
-        return pascal_list
-    else:
-        new_list=pascal_list
-        new_list.append(int(0))
-        new_list.insert(0, int(0))
-        
-        for k in range(len(new_list)-1):
-            new_k=new_list[k]+new_list[k+1]
-            new_pascal.append(new_k)
-        return new_pascal
+def solve(N):
+    ans_lst = [[1] * i for i in range(1, N+1)]
+    for i in range(N):
+        ans = ans_lst[i]
+        if len(ans) > 2:
+            for j in range(1, len(ans)-1):
+                ans[j] = ans_lst[i-1][j-1] + ans_lst[i-1][j]
+    return ans_lst
 
-TC=int(input())
-
+TC = int(input())
 for testcase in range(1, TC+1):
-    n=int(input())
+    N = int(input())
+    res = solve(N)
 
-    pascal_list=[]
-    print('#{}'.format(testcase))
-    for i in range(n):
-        pascal_str=''
-        pascal_list=my_pascal(pascal_list)
-        for j in pascal_list:
-            pascal_str += '{} '.format(j)
-        print(pascal_str)
+    print('#{}'.format(testcase), end=' ')
+    print()
+    for a in res:
+        for i in range(len(a)):
+            print('{}'.format(a[i]), end=' ')
+        print()
