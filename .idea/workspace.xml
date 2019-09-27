@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f1e654-1444-4a16-9fea-d57855dda003" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw_5650.py" beforeDir="false" afterPath="$PROJECT_DIR$/sw_5650.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,14 +74,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="30362" />
+          <entry key="py" value="31005" />
           <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="86" />
-          <entry key="Python" value="30362" />
+          <entry key="Python" value="31005" />
         </counts>
       </usages-collector>
     </session>
@@ -91,12 +91,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sw_5650.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="203">
+              <caret line="102" column="17" lean-forward="true" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
               <folding>
-                <marker date="1569548243328" expanded="true" signature="137:175" ph="..." />
-                <marker date="1569548243328" expanded="true" signature="1673:1730" ph="..." />
-                <marker date="1569548243328" expanded="true" signature="2222:2223" ph="..." />
+                <marker date="1569550902954" expanded="true" signature="242:280" ph="..." />
+                <marker date="1569550902954" expanded="true" signature="1907:1964" ph="..." />
+                <marker date="1569550902954" expanded="true" signature="2468:2469" ph="..." />
               </folding>
             </state>
           </provider>
@@ -186,8 +186,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="843" />
-    <option name="y" value="106" />
+    <option name="x" value="760" />
+    <option name="y" value="120" />
     <option name="width" value="1074" />
     <option name="height" value="990" />
   </component>
@@ -381,7 +381,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="843" y="106" width="1074" height="990" extended-state="0" />
+    <frame x="760" y="120" width="1074" height="990" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13223939" />
@@ -432,11 +432,6 @@
           <url>file://$PROJECT_DIR$/d4_1486.py</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sw_5650.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -757,12 +752,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sw_5650.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="203">
+          <caret line="102" column="17" lean-forward="true" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
           <folding>
-            <marker date="1569548243328" expanded="true" signature="137:175" ph="..." />
-            <marker date="1569548243328" expanded="true" signature="1673:1730" ph="..." />
-            <marker date="1569548243328" expanded="true" signature="2222:2223" ph="..." />
+            <marker date="1569550902954" expanded="true" signature="242:280" ph="..." />
+            <marker date="1569550902954" expanded="true" signature="1907:1964" ph="..." />
+            <marker date="1569550902954" expanded="true" signature="2468:2469" ph="..." />
           </folding>
         </state>
       </provider>
