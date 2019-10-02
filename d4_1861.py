@@ -1,16 +1,12 @@
 import sys
-sys.stdin = open('d4_1862.txt', 'r')
-
-
-def is_inbox(y, x):
-    if 0 <= y < N and 0 <= x < N:
-        return True
+sys.stdin = open('d4_1861.txt', 'r')
 
 
 def is_next(ap, bp):
     rr = abs(ap[0] - bp[0]) + abs(ap[1] - bp[1])
     if rr == 1:
         return True
+
 
 TC = int(input())
 for testcase in range(1, TC+1):
@@ -29,11 +25,22 @@ for testcase in range(1, TC+1):
             if is_next(num_dic[k], num_dic[k+1]):
                 pos_lst.append(k)
                 num += 1
+    pos_lst.sort()      # 제출 할 때 sort 안하니까 안되더라는
     idx = 0
-    result = (pos_lst[0], 1)
-    new_p = (pos_lst[0], 1)
+    result = [0, 0]
     while idx < num:
-        if pos_lst[idx] + 1 == pos_lst[idx+1]:
+        if idx == 0:
+            new_p = [pos_lst[0], 1]
+        else:
+            if new_p[0] + new_p[1] == pos_lst[idx]:
+                new_p[1] += 1
+            else:
+                if new_p[1] > result[1]:
+                    result = new_p
+                new_p = [pos_lst[idx], 1]
+        idx += 1
 
+    if new_p[1] > result[1]:
+        result = new_p
 
-    print(testcase, pos_lst)
+    print('#{} {} {}'.format(testcase, result[0], result[1] + 1))
