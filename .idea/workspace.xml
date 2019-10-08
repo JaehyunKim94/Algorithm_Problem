@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15f1e654-1444-4a16-9fea-d57855dda003" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,38 +50,38 @@
     <session id="-1812440426">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="17" />
-          <entry key="project.open.time.3" value="7" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.open.time.3" value="8" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="d5_1242" value="1" />
-          <entry key="py" value="65" />
-          <entry key="txt" value="40" />
+          <entry key="py" value="68" />
+          <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Python" value="65" />
+          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="Python" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="py" value="59838" />
-          <entry key="txt" value="92" />
+          <entry key="dummy" value="8" />
+          <entry key="py" value="66119" />
+          <entry key="txt" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="98" />
-          <entry key="Python" value="59838" />
+          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="Python" value="66119" />
         </counts>
       </usages-collector>
     </session>
@@ -90,49 +89,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sw_4008.py">
+        <entry file="file://$PROJECT_DIR$/sw_2117.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="349">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <marker date="1570522756035" expanded="true" signature="66:592" ph="..." />
+                <marker date="1570522756035" expanded="true" signature="129:203" ph="..." />
+                <marker date="1570522756035" expanded="true" signature="361:507" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/sw_2112.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sw_1953.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="1615">
+              <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
               <folding>
-                <marker date="1570425500304" expanded="true" signature="68:72" ph="..." />
+                <marker date="1570522756040" expanded="true" signature="123:124" ph="..." />
+                <marker date="1570522756040" expanded="true" signature="623:1362" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sw_1953.txt">
+        <entry file="file://$PROJECT_DIR$/sw_2117.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1824">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sw_4008.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+            <state relative-caret-position="2850">
+              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
             </state>
           </provider>
         </entry>
@@ -157,11 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sw_5658.py" />
-        <option value="$PROJECT_DIR$/soojin.py" />
-        <option value="$PROJECT_DIR$/jh.txt" />
-        <option value="$PROJECT_DIR$/jinhong.py" />
-        <option value="$PROJECT_DIR$/sw_5656.py" />
         <option value="$PROJECT_DIR$/sw_5656.txt" />
         <option value="$PROJECT_DIR$/sw_5656_2.py" />
         <option value="$PROJECT_DIR$/sw_5653.txt" />
@@ -208,14 +190,19 @@
         <option value="$PROJECT_DIR$/sw_1953.txt" />
         <option value="$PROJECT_DIR$/sw_1953.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/sw_2112.txt" />
+        <option value="$PROJECT_DIR$/ㄵ_2117.py" />
+        <option value="$PROJECT_DIR$/sw_2117.txt" />
+        <option value="$PROJECT_DIR$/sw_2117.py" />
+        <option value="$PROJECT_DIR$/sw_2112.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="760" />
-    <option name="y" value="75" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="349" />
+    <option name="y" value="160" />
     <option name="width" value="1074" />
-    <option name="height" value="990" />
+    <option name="height" value="925" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -261,8 +248,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="sw_2382" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sw_2117">
+    <configuration name="sw_2112" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw_academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,7 +261,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sw_2382.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sw_2112.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,7 +270,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sw_2383" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sw_2117" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw_academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,7 +282,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sw_2383.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sw_2117.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,19 +355,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sw_2382" />
-      <item itemvalue="Python.sw_2383" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.sw_4012" />
       <item itemvalue="Python.sw_4008" />
+      <item itemvalue="Python.sw_2112" />
+      <item itemvalue="Python.sw_2117" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sw_2117" />
+        <item itemvalue="Python.sw_2112" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.sw_4008" />
         <item itemvalue="Python.sw_4012" />
-        <item itemvalue="Python.sw_2383" />
-        <item itemvalue="Python.sw_2382" />
       </list>
     </recent_temporary>
   </component>
@@ -407,15 +394,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="349" y="160" width="1074" height="925" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07218124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13223939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32865497" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39087948" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39766082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4227848" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39746836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -462,28 +449,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/soojin.py" />
-    <entry file="file://$PROJECT_DIR$/sw_5656.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="23" column="40" lean-forward="true" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_5656_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_5656.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sw_5653.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -795,8 +760,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="397">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_2112.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_2117.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_2117.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <marker date="1570522756035" expanded="true" signature="66:592" ph="..." />
+            <marker date="1570522756035" expanded="true" signature="129:203" ph="..." />
+            <marker date="1570522756035" expanded="true" signature="361:507" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_2112.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+          <folding>
+            <marker date="1570522756040" expanded="true" signature="123:124" ph="..." />
+            <marker date="1570522756040" expanded="true" signature="623:1362" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
