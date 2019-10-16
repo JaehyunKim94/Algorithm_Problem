@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15f1e654-1444-4a16-9fea-d57855dda003" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw_1953.py" beforeDir="false" afterPath="$PROJECT_DIR$/sw_1953.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b_17472.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b_17472.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sw_2105.py" beforeDir="false" afterPath="$PROJECT_DIR$/sw_2105.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,63 +55,66 @@
     <session id="-1812440426">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="19" />
-          <entry key="project.open.time.3" value="12" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.2" value="20" />
+          <entry key="project.open.time.3" value="13" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="d2_5176" value="1" />
           <entry key="d5_1242" value="1" />
-          <entry key="py" value="87" />
-          <entry key="txt" value="58" />
+          <entry key="py" value="98" />
+          <entry key="txt" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="60" />
-          <entry key="Python" value="87" />
+          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="Python" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="py" value="82394" />
-          <entry key="txt" value="102" />
+          <entry key="py" value="91592" />
+          <entry key="txt" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="110" />
-          <entry key="Python" value="82394" />
+          <entry key="PLAIN_TEXT" value="148" />
+          <entry key="Python" value="91592" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sw_2105.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/b_15683.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="90" />
+              <folding>
+                <marker date="1571221865716" expanded="true" signature="49:50" ph="..." />
+                <marker date="1571221865716" expanded="true" signature="142:143" ph="..." />
+                <marker date="1571221865716" expanded="true" signature="625:994" ph="..." />
+                <marker date="1571221865716" expanded="true" signature="1119:1481" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sw_2105.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/b_15683.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding>
-                <marker date="1571127027831" expanded="true" signature="151:549" ph="..." />
-                <marker date="1571127027831" expanded="true" signature="833:836" ph="..." />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -136,13 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sw_5644.py" />
-        <option value="$PROJECT_DIR$/sw_4014.py" />
-        <option value="$PROJECT_DIR$/sw_4013.txt" />
-        <option value="$PROJECT_DIR$/sw_4013.py" />
-        <option value="$PROJECT_DIR$/d4_7465.txt" />
-        <option value="$PROJECT_DIR$/d4_7465.py" />
-        <option value="$PROJECT_DIR$/d4_1862.txt" />
         <option value="$PROJECT_DIR$/d4_1862.py" />
         <option value="$PROJECT_DIR$/d4_1861.py" />
         <option value="$PROJECT_DIR$/d3_1244.txt" />
@@ -183,18 +179,25 @@
         <option value="$PROJECT_DIR$/sw_1949.txt" />
         <option value="$PROJECT_DIR$/sw_1949.py" />
         <option value="$PROJECT_DIR$/b_17472.py" />
-        <option value="$PROJECT_DIR$/b_17472.txt" />
         <option value="$PROJECT_DIR$/sw_1953.py" />
         <option value="$PROJECT_DIR$/b_17471.py" />
         <option value="$PROJECT_DIR$/sw_2105.py" />
+        <option value="$PROJECT_DIR$/b_17144.txt" />
+        <option value="$PROJECT_DIR$/b_17144.py" />
+        <option value="$PROJECT_DIR$/b_17472.txt" />
+        <option value="$PROJECT_DIR$/b_17472_2.py" />
+        <option value="$PROJECT_DIR$/d5_5521.txt" />
+        <option value="$PROJECT_DIR$/d5_5521.py" />
+        <option value="$PROJECT_DIR$/b_15683.txt" />
+        <option value="$PROJECT_DIR$/b_15683.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="795" />
-    <option name="y" value="183" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="140" />
+    <option name="y" value="139" />
     <option name="width" value="1074" />
-    <option name="height" value="1016" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -204,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +224,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,8 +243,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sw_2105">
-    <configuration name="b_17472" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.b_15683">
+    <configuration name="b_15683" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw_academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +256,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b_17472.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b_15683.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,7 +265,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="d2_5177" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="b_17144" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw_academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,7 +277,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d2_5177.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b_17144.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sw_1949" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="b_17472_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw_academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,7 +298,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sw_1949.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b_17472_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,7 +307,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sw_1953" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="d5_5521" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw_academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,7 +319,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sw_1953.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d5_5521.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,19 +350,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.d2_5177" />
       <item itemvalue="Python.sw_2105" />
-      <item itemvalue="Python.sw_1949" />
-      <item itemvalue="Python.b_17472" />
-      <item itemvalue="Python.sw_1953" />
+      <item itemvalue="Python.b_17144" />
+      <item itemvalue="Python.b_15683" />
+      <item itemvalue="Python.b_17472_2" />
+      <item itemvalue="Python.d5_5521" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.b_15683" />
+        <item itemvalue="Python.d5_5521" />
+        <item itemvalue="Python.b_17472_2" />
+        <item itemvalue="Python.b_17144" />
         <item itemvalue="Python.sw_2105" />
-        <item itemvalue="Python.sw_1953" />
-        <item itemvalue="Python.b_17472" />
-        <item itemvalue="Python.sw_1949" />
-        <item itemvalue="Python.d2_5177" />
       </list>
     </recent_temporary>
   </component>
@@ -386,15 +389,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="140" y="139" width="1074" height="1100" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07218124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13223939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32690126" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.412595" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38002172" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39274612" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3792746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -422,62 +425,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2기서울1반김재현/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_4014.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_4014.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_4013.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="52" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_4013.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d4_7465.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d4_7465.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d4_1861.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/d4_1861.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13471">
@@ -506,24 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sw_1952.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sw_2115.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
           <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_2115.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -559,20 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_4012.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw_4008.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -724,23 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b_17472.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b_17472.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="94" selection-end-column="13" />
-          <folding>
-            <marker date="1571098028213" expanded="true" signature="1138:1365" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sw_1953.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -752,10 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <marker date="1571102243590" expanded="true" signature="69:143" ph="..." />
-            <marker date="1571102243590" expanded="true" signature="799:801" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,6 +664,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sw_2105.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1571137017414" expanded="true" signature="151:549" ph="..." />
+            <marker date="1571137017414" expanded="true" signature="850:853" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sw_2105.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -773,13 +682,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sw_2105.py">
+    <entry file="file://$PROJECT_DIR$/b_17144.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_1952.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_2115.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_4008.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="41" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_4012.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b_17144.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d4_7465.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b_17472.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b_17472.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b_17472_2.py" />
+    <entry file="file://$PROJECT_DIR$/d5_5521.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d5_5521.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="3" lean-forward="true" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b_15683.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b_15683.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="90" />
           <folding>
-            <marker date="1571127027831" expanded="true" signature="151:549" ph="..." />
-            <marker date="1571127027831" expanded="true" signature="833:836" ph="..." />
+            <marker date="1571221865716" expanded="true" signature="49:50" ph="..." />
+            <marker date="1571221865716" expanded="true" signature="142:143" ph="..." />
+            <marker date="1571221865716" expanded="true" signature="625:994" ph="..." />
+            <marker date="1571221865716" expanded="true" signature="1119:1481" ph="..." />
           </folding>
         </state>
       </provider>

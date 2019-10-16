@@ -34,8 +34,8 @@ def solve(ay, ax, by):
         if ax == tx:
             aa = (L+1)//2
             bb = aa
-        else:
-
+        # else:
+        # 포기...
         d_lst[0] = aa
         d_lst[1] = bb
         print(ay, ax, by, tx, d_lst)
