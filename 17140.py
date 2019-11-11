@@ -1,52 +1,74 @@
 import sys
 sys.stdin = open('17140.txt', 'r')
 
-def rotate(t_map):
-    y_len = len(t_map)
-    x_len = len(t_map[0])
-    new_map = [[0] * y_len for _ in range(x_len)]
-    for y in range(x_len):
-        for x in range(y_len):
-            new_map[y][x] = t_map[x][y]
-    return new_map
 
-
-def go_count():
-    global total_map
-    ran = len(total_map)
-    lim = len(total_map[0])
-    new_map = [0] * ran
-    max_len = 0
-    for y in range(ran):
-        tg = total_map[y]
-        idx = 1
-        num = tg[0]
+def r_cal(t_map, r_len, c_len):
+    new_map = [0] * r_len
+    m_len = 0
+    for y in range(r_len):
+        tg_lst = t_map[y]
+        num = tg_lst[0]
         cnt = 1
+        idx = 0
         new_lst = []
-        while idx < lim:
-            if num == tg[idx]:
+        while idx < c_len-1:
+            idx += 1
+            if tg_lst[idx] == num:
                 cnt += 1
             else:
                 new_lst.append((cnt, num))
-                num = tg[idx]
                 cnt = 1
-            idx += 1
+                num = tg_lst[idx]
         new_lst.append((cnt, num))
         new_lst.sort()
-        n_len = len(new_lst) * 2
-        max_len = max(n_len, max_len)
         new_map[y] = new_lst
-
-    for i in range(ran):
-        new_in = [0] * max_len
-        new_tg = new_map[i]
+        n_len = len(new_lst) * 2
+        m_len = max(m_len, n_len)
+    for y in range(r_len):
+        new_lst = [0] * m_len
         ii = 0
-        for tg in new_tg:
-            new_in[ii] = tg[1]
-            new_in[ii+1] = tg[0]
+        tg_lst = new_map[y]
+        for tg in tg_lst:
+            new_lst[ii] = tg[1]
+            new_lst[ii+1] = tg[0]
             ii += 2
-        new_map[i] = new_in
-    total_map = new_map
+        new_map[y] = new_lst
+    return new_map
+
+
+def c_cal(t_map, r_len, c_len):
+    new_map = [0] * c_len
+    m_len = 0
+    for x in range(c_len):
+        idx = 0
+        num = t_map[idx][x]
+        cnt = 1
+        new_lst = []
+        while idx < r_len-1:
+            idx += 1
+            if t_map[idx][x] == num:
+                cnt += 1
+            else:
+                new_lst.append((cnt, num))
+                cnt = 1
+                num = t_map[idx][x]
+        new_lst.append((cnt, num))
+        new_lst.sort()
+        new_map[x] = new_lst
+    for new in new_map:
+        n_len = len(new) * 2
+        m_len = max(m_len, n_len)
+    for x in range(c_len):
+        new_lst = [0] * m_len
+        tg_lst = new_map[x]
+        ii = 0
+        for tg in tg_lst:
+            new_lst[ii] = tg[1]
+            new_lst[ii+1] = tg[0]
+            ii += 2
+        new_map[x] = new_lst
+    y_map = list(map(list, zip(*new_map)))
+    return y_map
 
 
 def solve():
@@ -54,11 +76,9 @@ def solve():
     r_len = len(total_map)
     c_len = len(total_map[0])
     if r_len >= c_len:
-        go_count()
+        total_map = r_cal(total_map, r_len, c_len)
     else:
-        total_map = rotate(total_map)
-        go_count()
-        total_map = rotate(total_map)
+        total_map = c_cal(total_map, r_len, c_len)
 
 
 r, c, k = map(int, input().split())
@@ -74,7 +94,8 @@ else:
         if not ck_res:
             if r < len(total_map) and c < len(total_map[0]):
                 ck_res = True
-        if ck_res:
-            if total_map[r][c] == k:
-                break
+        if ck_res and total_map[r][c] == k:
+            break
+    if t == 100:
+        t = -1
     print(t)
