@@ -1,4 +1,5 @@
-
+import sys
+sys.stdin = open('17070.txt', 'r')
 
 def get_pos(n):
     lst = []

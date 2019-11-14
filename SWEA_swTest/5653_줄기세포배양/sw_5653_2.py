@@ -46,7 +46,6 @@ def bunsik(y, x, bu_lst):
 TC = int(input())
 for testcase in range(1, TC+1):
     N, M, K = map(int, input().split())
-
     H = N + (2*K)
     W = M + (2*K)
     ori_map = [[0] * W for _ in range(H)]
