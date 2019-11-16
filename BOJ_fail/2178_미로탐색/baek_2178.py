@@ -8,35 +8,27 @@ def is_inbox(y, x):
     return False
 
 
-def bfs(que, k):
-    global cnt
-    cnt += 1
-    kk = 0
-    for _ in range(k):
-        t = que.pop(0)
-        for dif in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
-            ay = t[0] + dif[0]
-            ax = t[1] + dif[1]
-            if is_inbox(ay, ax):
-                if ay == N-1 and ax == M-1:
-                    cnt += 1
-                    return
-                if total_map[ay][ax] == '1':
-                    if visit[ay][ax] == 0:
-                        visit[ay][ax] = 1
-                        que.append((ay, ax))
-                        kk += 1
-    print(que)
-    if que:
-        bfs(que, kk)
-    return
+def solve():
+    que = [(0, 0)]
+    cnt = 1
+    visit = [[0] * M for _ in range(N)]
+    visit[0][0] = 1
+    while que:
+        r = len(que)
+        for _ in range(r):
+            y, x = que.pop(0)
+            for dy, dx in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
+                yy = y + dy
+                xx = x + dx
+                if yy == N-1 and xx == M-1:
+                    return cnt + 1
+                if is_inbox(yy, xx) and not visit[yy][xx] and total_map[yy][xx]=='1':
+                    visit[yy][xx] = 1
+                    que.append((yy, xx))
+        cnt += 1
 
 
 N, M = map(int, input().split())
-visit = [[0]*M for _ in range(N)]
 total_map = [input() for _ in range(N)]
-que = [(0, 0)]
-visit[0][0] = 1
-cnt = 0
-bfs(que, 1)
-print(cnt)
+result = solve()
+print(result)
