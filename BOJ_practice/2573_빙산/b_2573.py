@@ -1,65 +1,64 @@
-import sys
-sys.stdin = open('2573.txt', 'r')
-
-
-def isInBox(y, x):
-    if 0 <= y < N and 0 <= x < M:
+def isInbox(ay, ax):
+    if 0 <= ay < N and 0 <= ax < M:
         return True
     return False
 
-
-def findIce():
-    for y in range(N):
-        for x in range(M):
-            if total_map[y][x] > 0:
-                return y, x
-
-def countIce():
+def countWater(ay, ax):
     cnt = 0
-    for y in range(N):
-        for x in range(M):
-            if total_map[y][x] > 0:
-                cnt += 1
+    for dy, dx in [(0, 1), (1, 0), (-1, 0), (0, -1)]:
+        yy = ay + dy
+        xx = ax + dx
+        if isInbox(yy, xx) and total_map[yy][xx] == 0:
+            cnt += 1
     return cnt
 
-def checkIce(y, x):
-    y, x = findIce()
-    que = [(y, x)]
-    visit = [[0] * M for _ in range(N)]
-    visit[y][x] = 1
+def findIce(ck_map):
+    for ay in range(N):
+        for ax in range(M):
+            if ck_map[ay][ax] > 0:
+                return ay, ax
+
+def checkMap():
+    check_map = [[0] * M for _ in range(N)]
+    start_ice = findIce(total_map)
+    if start_ice:
+        que = [start_ice]
+    else:
+        return False
+
     while que:
         y, x = que.pop()
         for dy, dx in [(0, 1), (1, 0), (-1, 0), (0, -1)]:
             yy = y + dy
             xx = x + dx
-            if isInBox(yy, xx) and total_map[yy][xx] > 0 and not visit[yy][xx]:
-                visit[yy][xx] = 1
+            if isInbox(yy, xx) and total_map[yy][xx] > 0 and not check_map[yy][xx]:
                 que.append((yy, xx))
-    if sum(visit) == countIce():
+                check_map[yy][xx] = total_map[yy][xx]
+    if check_map != total_map:
         return True
     return False
 
-def checkWater(y, x):
-    cnt = 0
-    for dy, dx in [(0, 1), (1, 0), (-1, 0), (0, -1)]:
-        yy = y + dy
-        xx = x + dx
-        if isInBox(yy, xx) and total_map[yy][xx] == 0:
-            cnt += 1
-    return cnt
-
 N, M = map(int, input().split())
 total_map = [list(map(int, input().split())) for _ in range(N)]
+zero_map = [[0] * M for _ in range(N)]
 year = 0
-while checkIce(findIce()):
-    melting = []
+result = 0
+
+while total_map != zero_map:
     year += 1
+    melting = []
     for y in range(N):
         for x in range(M):
             if total_map[y][x] > 0:
-                melting.append((y, x, checkWater(y, x)))
+                nxt_ice = total_map[y][x] - countWater(y, x)
+                if nxt_ice > 0:
+                    total_map[y][x] = nxt_ice
+                else:
+                    melting.append((y, x))
     for ice in melting:
-        tmp_water = total_map[ice[0]][ice[1]] - ice[2]
-        total_map[ice[0]][ice[1]] = max(0, tmp_water)
+        total_map[ice[0]][ice[1]] = 0
+    if checkMap():
+        result = year
+        break
 
-print(year)
+print(result)
