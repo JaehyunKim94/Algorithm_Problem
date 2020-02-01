@@ -29,7 +29,6 @@ def solve(idx, score):
                 visit[now_p] = 1
 
 
-
 dice = list(map(int, input().split()))
 one_way = [i*2 for i in range(20)]
 center = [13, 16, 19, 22, 24, 28, 27, 26, 25, 30, 35, 40]
