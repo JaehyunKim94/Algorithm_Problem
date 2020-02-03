@@ -8,8 +8,8 @@
 
 | 문제번호 | 문제이름           | 코드                                                         |
 | -------- | ------------------ | ------------------------------------------------------------ |
-| 1012     | 유기농 배추        | [나의 코드]([https://github.com/JaehyunKim94/Algorithm_Problem/blob/master/BOJ_solve/1012_%EC%9C%A0%EA%B8%B0%EB%86%8D%20%EB%B0%B0%EC%B6%94/b_1012.py](https://github.com/JaehyunKim94/Algorithm_Problem/blob/master/BOJ_solve/1012_유기농 배추/b_1012.py)) |
-| 1206     | DFS와 BFS          | [나의 코드]([https://github.com/JaehyunKim94/Algorithm_Problem/blob/master/BOJ_solve/1206_DFS%EC%99%80%20BFS/b_1260.py](https://github.com/JaehyunKim94/Algorithm_Problem/blob/master/BOJ_solve/1206_DFS와 BFS/b_1260.py)) |
+| 1012     | 유기농 배추        | [나의 코드](https://github.com/JaehyunKim94/Algorithm_Problem/blob/master/BOJ_solve/1012_유기농 배추/b_1012.py) |
+| 1206     | DFS와 BFS          | [나의 코드](https://github.com/JaehyunKim94/Algorithm_Problem/blob/master/BOJ_solve/1206_DFS와 BFS/b_1260.py) |
 | 2302     | 극장좌석           |                                                              |
 | 2303     | 숫자게임           |                                                              |
 | 2468     | 안전영역           |                                                              |
