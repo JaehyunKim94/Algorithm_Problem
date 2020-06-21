@@ -1,3 +1,2 @@
-la = [1, 2]
-lb = [2, 3, 4]
-print(la + lb)
+import sys
+sys.stdin = open('test.txt', 'r')
