@@ -23,6 +23,10 @@ SQL 문제를 풀기 위해 SQL 문법을 정리해놓은 문서입니다.
   -- 소수점 자르기 TRUNCATE(값, 위치)
   SELECT TRUNCATE(1234.56, 1) -- 결과: 1234.5
   SELECT TRUNCATE(1234.56, -2) -- 결과: 1230
+  
+  -- 최대값, 최소값 MIN(값) MAX(값)
+  SELECT MAX(columnName) FROM base_table
+  SELECT MIN(columnName) FROM base_table
   ```
 
   
@@ -38,11 +42,20 @@ SQL 문제를 풀기 위해 SQL 문법을 정리해놓은 문서입니다.
     -- Select using AND/OR
     SELECT * FROM <table> WHERE <조건식1> AND <조건식2>;
     
-    -- Select column with limits
-    SELECT * FROM <table_name> LIMIT 2,2; 
+    -- Select column with limits (출력되는 데이터 수 조절)
+    SELECT * FROM <table_name> LIMIT 2,2;
+    
+    -- 오름차순(ASC)/내림차순(DESC)로 조회
+    SELECT * FROM <table_name> ORDER BY <column_name> ASC
     ```
-
-
+    
+  - 중복 제거 `DISTINCT`
+  
+    ```mysql
+    SELECT DISTINCT <column_name> FROM <table>;
+    ```
+  
+    
 
 - `GROUP BY`
 
